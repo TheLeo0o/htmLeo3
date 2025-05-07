@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html{
     font-family: "Roboto", sans-serif;
-    font-size: calc(15px &#43; 0.390625vw);
-}
+    font-size: calc(15px + 0.390625vw);
 a{
     color: black;
     text-decoration: none;
