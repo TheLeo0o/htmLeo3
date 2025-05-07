@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html{
     font-family: "Roboto", sans-serif;
-    font-size: calc(15px + 0.390625vw);
-} 
-
+    font-size: calc(15px &#43; 0.390625vw);
+}
 a{
     color: black;
     text-decoration: none;
@@ -26,6 +25,40 @@ a.get-started{
 header{
     padding: 2vw 8vw 2vw 8vw;
 
+}
+
+section.banner{
+    background: url(../src/images/Xiaomi.png) no-repeat right, linear-gradient(rgba(225, 244, 255, 0.5), rgba(225, 244, 255, 0.5)), url(../src/images/background-footer.png);
+    padding: 10vw 8vw;
+    background-size: auto auto, auto, 50% auto;
+}
+
+section.banner h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(37, 43, 67);
+}
+
+section.banner p.text {
+    width: 30%;
+    color: gray;
+}
+
+section.banner p{
+    margin: 40px 0px;
+}
+
+section.banner p button span {
+    margin: 0 5px 0 0;
+}
+
+section.banner p button {
+    background-color: rgb(37, 43, 67);;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
 }
 
 @media (min-width:1024px) {
